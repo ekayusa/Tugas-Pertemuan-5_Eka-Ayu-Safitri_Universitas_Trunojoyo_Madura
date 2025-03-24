@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manajemen Produk Elektronik</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📦 Manajemen Produk Elektronik</h1>
+        <div class="form-group">
+            <input type="number" id="productId" placeholder="ID Produk">
+            <input type="text" id="productName" placeholder="Nama Produk">
+            <input type="number" id="productPrice" placeholder="Harga">
+            <button id="addProduct">➕ Tambah Produk</button>
+        </div>
+
+        <h2>📋 Daftar Produk Elektronik</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nama Produk</th>
+                    <th>Harga</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody id="productTableBody"></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
